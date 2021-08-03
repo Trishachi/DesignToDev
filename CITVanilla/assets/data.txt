@@ -1,0 +1,46 @@
+Colours
+
+- Light: background: #ECF0F1;
+- Dark Blue: #16224A
+- Torquise: #19E0DA -- Button 
+- Light Blue: #047AF5
+- Light Green: #75CBB3 (Oreti/5)
+- Dark: #14112D (Heading Text)
+- Text: #4F4F4F (Content Text)
+- Grey: background: #9B9B9BAB; - Button 
+
+
+Fonts
+
+Heading (H1)
+font-family: Playfair Display;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: -0.02em;
+text-align: center;
+
+Section Title
+font-family: Playfair Display;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -0.02em;
+text-align: left;
+
+Section Description
+font-family: Lato;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: -0.02em;
+text-align: left;
+
+Section Content
+
+
+
+
