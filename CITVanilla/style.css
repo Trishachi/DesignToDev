@@ -9,6 +9,8 @@ body {
   box-sizing: border-box;
 }
 
+/* Header/Slide One Styles */
+
 header {
   display: flex;
   flex-direction: column;
@@ -18,5 +20,46 @@ header {
   padding-top: 1.5em;
 }
 
-.headerTitle {
+hr {
+  border-color: #047af5;
+  width: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+h1.headerTitle {
+  font-family: "Playfair Display", serif;
+  color: #16224a;
+  font-size: 90px;
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: -2%;
+  padding-top: 5%;
+  margin-bottom: 0;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.headerText {
+  font-family: "Lato", sans-serif;
+  color: #047af5;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.member {
+  background-color: #19e0da;
+}
+
+.advisor {
+  background-color: #9b9b9b;
 }
