@@ -8,6 +8,14 @@ body {
 * {
   box-sizing: border-box;
 }
+.top-spacer {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.spacer {
+  margin-top: 35px;
+}
 
 h1.headerTitle,
 h2.section-title {
@@ -32,7 +40,7 @@ p.section-text {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: -2%;
+  letter-spacing: 1px;
   padding: 0 5%;
 }
 
@@ -93,7 +101,6 @@ h1.headerTitle {
   color: #047af5;
   font-size: 30px;
   line-height: 60px;
-  letter-spacing: -2%;
 }
 
 a.button {
@@ -127,7 +134,7 @@ a.button {
   }
 
   a.button {
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
   }
 
@@ -145,8 +152,34 @@ h2.desktop {
   width: 100%;
 }
 
+/* Slide Three Styles */
+h3.service-title {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+
+p.service-text {
+  font-family: "Lato", sans-serif;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding: 0 10px;
+}
+
 /* Slide Four Stlyes */
 #join {
   display: flex;
   flex-direction: column-reverse;
+}
+
+span.strongColored {
+  font-weight: 900;
+  font-style: italic;
+  color: #19e0da;
+}
+
+span.emphasized {
+  font-weight: 100;
+  font-style: italic;
 }
