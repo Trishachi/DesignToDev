@@ -9,6 +9,33 @@ body {
   box-sizing: border-box;
 }
 
+h1.headerTitle,
+h2.section-title {
+  font-family: "Playfair Display", serif;
+}
+
+h2.section-title {
+  font-size: 40px;
+  color: #16224a;
+}
+
+section {
+  text-align: center;
+}
+
+.slide-image {
+  width: 90%;
+  padding: 10%;
+}
+
+p.section-text {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  padding: 0 5%;
+}
+
 /* Header/Slide One Styles */
 
 header {
@@ -49,7 +76,6 @@ hr {
 
 h1.headerTitle {
   position: relative;
-  font-family: "Playfair Display", serif;
   color: #16224a;
   font-size: 90px;
   line-height: 95%;
@@ -104,4 +130,23 @@ a.button {
     display: block;
     margin-bottom: 20px;
   }
+
+  hr {
+    width: 10%;
+  }
+}
+
+/* Slide Two Styles */
+h2.desktop {
+  display: none;
+}
+
+.wave-image {
+  width: 100%;
+}
+
+/* Slide Four Stlyes */
+#join {
+  display: flex;
+  flex-direction: column-reverse;
 }
