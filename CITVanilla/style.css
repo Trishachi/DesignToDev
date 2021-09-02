@@ -124,26 +124,6 @@ a.button {
   background-color: #9b9b9b;
 }
 
-@media only screen and (max-width: 600px) {
-  h1.headerTitle {
-    font-size: 50px;
-  }
-
-  .headerText {
-    font-size: 25px;
-    line-height: 30px;
-  }
-
-  a.button {
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-
-  hr {
-    width: 10%;
-  }
-}
-
 /* Slide Two Styles */
 h2.desktop {
   display: none;
@@ -183,4 +163,56 @@ span.strongColored {
 span.emphasized {
   font-weight: 100;
   font-style: italic;
+}
+
+/* On Small devices from 600px down */
+@media only screen and (max-width: 600px) {
+  h1.headerTitle {
+    font-size: 50px;
+  }
+
+  .headerText {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  a.button {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 10%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h2.mobile {
+    display: none;
+  }
+
+  h2.desktop {
+    display: block;
+  }
+
+  #join {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 40%;
+  }
+
+  img.slide-image {
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+    padding: 0;
+  }
 }
