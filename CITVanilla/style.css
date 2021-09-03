@@ -221,10 +221,6 @@ span.emphasized {
     padding: 0;
   }
 
-  /* img.slide-image {
-    padding-left: 20px;
-  } */
-
   h2.section-title.desktop {
     margin: 10px 0;
   }
@@ -240,7 +236,7 @@ span.emphasized {
   }
 
   .section-text-join {
-    padding: 50px 0 35px 25px;
+    padding: 50px 0 35px 50px;
     margin-top: 50px;
   }
 }
