@@ -31,7 +31,8 @@ section {
   text-align: center;
 }
 
-.slide-image {
+.slide-image,
+.slide-image-join {
   width: 90%;
   padding: 10%;
 }
@@ -165,27 +166,6 @@ span.emphasized {
   font-style: italic;
 }
 
-/* On Small devices from 600px down */
-@media only screen and (max-width: 600px) {
-  h1.headerTitle {
-    font-size: 50px;
-  }
-
-  .headerText {
-    font-size: 25px;
-    line-height: 30px;
-  }
-
-  a.button {
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-
-  hr {
-    width: 10%;
-  }
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   h2.mobile {
@@ -238,5 +218,57 @@ span.emphasized {
   .section-text-join {
     padding: 50px 0 35px 50px;
     margin-top: 50px;
+  }
+
+  .service-description {
+    text-align: center;
+  }
+
+  .service-description h2 {
+    margin-bottom: 20px;
+  }
+
+  .service-description p {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 60%;
+  }
+
+  section#services {
+    padding: 0 25px;
+  }
+
+  .offers {
+    display: flex;
+    /* justify-content: space-around; */
+  }
+
+  .service {
+    text-align: center;
+  }
+
+  .service-icon {
+    width: 30%;
+  }
+}
+
+/* On Small devices from 600px down */
+@media only screen and (max-width: 600px) {
+  h1.headerTitle {
+    font-size: 50px;
+  }
+
+  .headerText {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  a.button {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 10%;
   }
 }
